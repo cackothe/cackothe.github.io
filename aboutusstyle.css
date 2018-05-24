@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+background-color: #eee ;
+font-family: Helvetica, Arial, sans-serif;
+padding: 0px;
+margin: 0px;
+}
+
+a {
+text-decoration: none;
+text-transform: uppercase;
+20px;
+color: #444444;
+}
+
+#nav a:hover {
+color: #000;
+}
+
+#nav a::before {
+content: "";
+display: block;
+height: 5px;
+width: 100%;
+}
+h1, h2, h3 {
+0;
+}
+
+#container {
+background-color: #FFFFFF;
+width: 80%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+opacity: 0.9;
+
+}
+
+#header {
+background-color: #66ccff;
+color: white;
+text-align: center;
+padding: 0.5% 0% 0% 0%;
+
+}
+
+#content {
+padding: 0;
+	border-radius: 10%;
+}
+
+#nav {
+width: 100%; /*width od 10% na 100%*/
+height: 65px; /*height za da ne go zafaka cel screen zaradi height auto*/
+float: left;
+background-color: #66ccff
+
+}
+
+#nav ul {
+background: #55BBEE; /*samo bojata ja smenav za da ne e isto so naslovo, mozis da go trgnish ako sakash*/
+list-style-type: none;
+}
+#nav ul li{
+    width: 19%; /*width 25% zato sho se 4*/
+    display: inline-block;/*inline block za da gi displayni edno po edno*/
+    text-align: center;
+}
+#nav ul li a{
+    line-height: 60px; /*vertical alignment bullcrap...*/
+
+}
+#main p {
+0;
+padding: 0;
+Georgia;
+20px;
+
+color: #444444;
+}
+
+
+#nav.selected {
+font-weight: bold;
+}
+
+#main {
+width: 77%;
+float: right;
+text-align: center;
+padding: 0px 2px;
+
+}
+#main img{
+  width: 700px;
+	height: 400px;
+}
+
+#footer {
+clear: both;
+padding: 0.5%;
+background-color: #999999;
+color: white;
+text-align: center;
+}
+#wrapper{
+	background: url(jpg/backround.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+}
